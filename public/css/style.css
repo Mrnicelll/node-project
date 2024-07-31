@@ -1,0 +1,109 @@
+/* Vivian start here */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: #f5f5f5; /* Set background color */
+}
+
+.search-form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-form input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* vivian stop here */
+/* Gbolaham start here */
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+.register-page {
+    width: 30%;
+    text-align: center;
+    border: 2px solid #ccc; /* Add border */
+    padding: 30px;
+    background-color: #fff; /* Set background color */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submitBtn {
+    background-color: #ff6600; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Gbolaham stop here */
+/* Muiz start here */
+.submitBtn:hover {
+    background-color: #b37700; /* Change background color on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Add border */
+}
+
+button {
+    background-color: #ff0037;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30000;
+}
+/* Muiz stop here */
